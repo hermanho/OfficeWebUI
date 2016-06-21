@@ -1,0 +1,58 @@
+﻿.OfficeWebUI_PopupShadow
+{
+    BACKGROUND-COLOR: #eef3ee;
+}
+
+.OfficeWebUI_Popup
+{
+    border:1px solid #777;
+    border-radius:3px;
+    box-shadow: 2px 2px 4px #c0c0c0; 
+    background:#F0F0F0;
+}
+
+.OfficeWebUI_PopupTitle
+{
+    font-size:11px;
+    padding:5px 5px 3px 5px;
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Button_Background.png") %>) bottom left repeat-x;
+    border-bottom:1px solid #C0C0C0;
+}
+
+.OfficeWebUI_PopupContentContainer
+{
+    padding:5px;
+    margin:5px;
+    background:#fff;
+    border:1px solid #A5ACB5;
+}
+
+.OfficeWebUI_PopupFooterPanel
+{
+    border-top:0px solid #C0C0C0;
+    background:#F0F0F0;
+    padding:0px 5px 5px 5px;
+    text-align:right;
+}
+
+
+.OfficeWebUI_PopupContentContainer H1
+{
+    font-size:16pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+.OfficeWebUI_PopupContentContainer H2
+{
+    font-size:14pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+.OfficeWebUI_PopupContentContainer H3
+{
+    font-size:12pt;
+    font-weight:normal;
+    margin-top:0px;
+}

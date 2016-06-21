@@ -1,0 +1,201 @@
+﻿
+.RibbonContextsContainer
+{
+    background:url(<%= WebResource("OfficeWebUI.Resources.Wave.Image.Ribbon_Tabline.png") %>) bottom left repeat-x;
+    *background-position:0px 48px;
+}
+
+.RibbonTabsContainer
+{
+    background:#e2f2ff;
+    border-left:1px solid #99bbe8;
+    border-right:1px solid #99bbe8;
+    border-bottom:1px solid #99bbe8;
+}
+
+.RibbonContext
+{
+    
+    background-image:url(<%= WebResource("OfficeWebUI.Resources.Wave.Image.Ribbon_BackgroundContext.png") %>);
+    background-position:top left;
+    background-repeat:repeat-x;
+    border-bottom:1px solid #99bbe8;
+}
+
+.RibbonContextTitle
+{
+    color:#444;    
+}
+
+.RibbonMenu
+{
+    background-image:url(<%= WebResource("OfficeWebUI.Resources.Wave.Image.Ribbon_Background_AppMenu.png") %>);
+    background-position:top left;
+    background-repeat:repeat-x;
+    color:#fff;
+}
+
+.RibbonTab
+{
+    float:left;
+    background:transparent;
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+    border-top:1px solid transparent;
+    cursor:pointer;
+    color:#888;
+}
+
+.RibbonTab:hover
+{
+    border-left:1px solid #99bbe8;
+    border-right:1px solid #99bbe8;
+    border-top:1px solid #99bbe8;
+    background:#e2f2ff;
+}
+
+.RibbonTabActive
+{
+    border-left:1px solid #99bbe8;
+    border-right:1px solid #99bbe8;
+    border-top:1px solid #99bbe8;
+    border-bottom:1px solid #e2f2ff;
+    background:#e2f2ff;   
+    color:#000; 
+}
+
+.RibbonGroupContent
+{
+    float:left;
+    height:80px;
+    border-right:1px solid #99bbe8;
+}
+
+.RibbonGroupContent A
+{
+    color:#444;
+    text-decoration:none;
+}
+
+.RibbonGroupTitle
+{
+    color:#99bbe8;    
+}
+
+.RibbonDropDownMenu
+{
+	position:absolute;
+	border:1px solid #99bbe8;
+	padding:2px;
+	background:#fff;
+	z-index:99;    
+}
+
+/* Items */
+
+
+.RibbonItems_SmallItem
+{
+	float:left;
+	padding: 1px;
+	border:0px solid #99bbe8;
+}
+.RibbonItems_SmallItem:hover
+{
+	padding: 0px;
+	border:1px solid #99bbe8;
+	cursor:pointer;
+	background:#f1f8fa;
+}
+
+
+.RibbonItems_MediumItem
+{
+	padding: 1px;
+	border:0px solid #99bbe8;
+}
+.RibbonItems_MediumItem:hover
+{
+	padding: 0px;
+	border:1px solid #99bbe8;
+	cursor:pointer;
+	background:#f1f8fa;
+}
+
+
+.RibbonItems_LargeItem
+{
+	float:left;
+	padding: 1px 3px 1px 3px;
+	border:0px solid #99bbe8;
+}
+.RibbonItems_LargeItem:hover
+{
+	padding: 0px 2px 0px 2px;	
+	border:1px solid #99bbe8;
+	cursor:pointer;
+	background:#f1f8fa;
+}
+
+
+.RibbonGalleryContainer
+{
+	float:left;
+	height:64px;
+	background:#fff;
+	border:1px solid #99bbe8;
+	padding-right:2px;
+}
+
+
+.RibbonGalleryDropDownArrow
+{
+    border-right:1px solid #99bbe8;
+	border-bottom:1px solid #99bbe8;
+	border-top:1px solid #99bbe8;
+	float:left;
+	height:60px;
+	padding:2px;
+	background:#FFF;
+	cursor:pointer;
+}
+.RibbonGalleryDropDownArrow:hover
+{
+    border-right:1px solid #99bbe8;
+	border-bottom:1px solid #99bbe8;
+	border-top:1px solid #99bbe8;
+	float:left;
+	height:60px;
+	padding:2px;
+	background:#f1f8fa;
+	cursor:pointer;
+}
+
+.RibbonGalleryItem
+{
+    margin:2px 0px 2px 2px;
+	height:52px;
+	width:70px;
+	padding: 4px 6px 4px 6px;
+	float:left;
+}
+.RibbonGalleryItem:hover
+{
+    margin:2px 0px 2px 2px;
+	padding: 3px 5px 3px 5px;
+	height:52px;
+	width:70px;
+	cursor:pointer;
+	border:1px solid #99bbe8;
+	background:#f1f8fa;
+	float:left;
+}
+
+.RibbonGallerySubMenu
+{
+	position:absolute;
+	border:1px solid #99bbe8;
+	padding-right:2px;
+	background:#fff;
+	z-index:99;
+}

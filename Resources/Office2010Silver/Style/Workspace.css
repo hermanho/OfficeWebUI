@@ -1,0 +1,90 @@
+﻿.OfficeWebUI_WorkspaceContainer
+{
+    margin:4px;
+}
+
+
+.OfficeWebUI_Workspace
+{
+    font-size:11px;
+    font-family:"Segoe UI", Tahoma;
+    color:#3B3B3B;
+}
+
+.OfficeWebUI_WorkspaceStatusBar
+{
+    background:#BFC3C8 url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Workspace_StatusBar.png") %>) top left repeat-x;
+    height:23px;
+    border-top:1px solid #939AA3;
+}
+
+.OfficeWebUI_WorkspaceContentPanel
+{
+    border:1px solid #A5ACB5;
+    background:#fff;
+    padding:5px;
+}
+
+.OfficeWebUI_WorkspaceLeftPanel
+{
+    border:1px solid transapent;
+}
+
+.OfficeWebUI_WorkspaceNavContainer
+{
+    border-bottom:1px solid #A5ACB5;
+}
+
+
+.OfficeWebUI_WorkspaceAreaZone
+{
+    
+}
+
+
+.WorkspaceAreaActive
+{
+    padding:4px !important;
+    background:#F0F0F0;
+    border:1px solid #A5ACB5;
+}
+
+.OfficeWebUI_WorkspaceAreaButton
+{
+    padding:5px;
+    margin:2px 2px 0px 0px;
+    font-weight:bold;
+    margin:2px;
+}
+
+.OfficeWebUI_WorkspaceAreaButton:hover
+{
+    padding:5px;
+    background:#F0F0F0;
+}
+
+.OfficeWebUI_WorkspaceSectionTitle
+{
+    font-weight:bold;
+}
+
+.OfficeWebUI_WorkspaceItem
+{
+    padding:0px;
+	border:1px solid transparent;
+    margin-top:1px;
+}
+
+.OfficeWebUI_WorkspaceItem:hover
+{
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+
+.OfficeWebUI_WorkspaceItemActive
+{
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}

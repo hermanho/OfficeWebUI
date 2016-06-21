@@ -1,0 +1,19 @@
+﻿.OfficeWebUI_Combobox
+{
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    left:0;
+}
+
+.OfficeWebUI_Combobox_DropDown
+{
+    position:absolute;
+    display:none;
+    z-index:9010;
+}
+
+.OfficeWebUI_Combobox_Item
+{
+    cursor:default;
+}

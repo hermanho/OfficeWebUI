@@ -1,0 +1,7 @@
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Release\OfficeWebUI.AboutOfficeWebUI.resources
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Release\OfficeWebUI.Properties.Resources.resources
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Release\OfficeWebUI.csproj.GenerateResource.Cache
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\bin\Release\OfficeWebUI.dll
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\bin\Release\OfficeWebUI.pdb
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Release\OfficeWebUI.dll
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Release\OfficeWebUI.pdb

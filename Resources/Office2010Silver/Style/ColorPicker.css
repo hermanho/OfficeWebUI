@@ -1,0 +1,11 @@
+﻿.RibbonColorPicker_Cell
+{
+    border:1px solid #fff;
+    padding:1px;
+}
+
+.RibbonColorPicker_Cell:hover
+{
+    border:1px solid #f1c43f;
+    padding:1px;
+}

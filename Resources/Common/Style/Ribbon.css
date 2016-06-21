@@ -1,0 +1,236 @@
+﻿.RibbonBaseContainer
+{
+    font-family:"Segoe UI", Tahoma, Verdana, Arial;
+}
+
+.clear
+{
+    clear:both;
+}
+
+
+.RibbonBackstageContainer
+{
+    z-index: 1000;
+    background: #fff;
+    display: none;
+    position: absolute;
+    border: 1px solid #444;
+}
+
+.BackstagePageTitle
+{
+    font-size:13px;
+}
+
+.RibbonApplicationMenuContainer
+{
+    z-index: 1000;
+    background: #fff;
+    display: none;
+    position: absolute;
+    font-size:11px;
+    padding:2px;
+}
+
+
+.ApplicationButtonContainer
+{
+    height:49px;    
+}
+
+.ApplicationButton
+{
+    margin-top:25px; 
+    font-size:11px;
+    height:19px;   
+    padding-left:10px;
+    padding-right:10px;     
+    padding-top:4px;
+    cursor:pointer;
+}
+
+.RibbonContextsContainer
+{
+    height:49px !important; 
+    overflow:hidden;  
+}
+
+.RibbonTabsContainer
+{
+    font-size:11px;
+    height:80px;
+    padding:5px;   
+}
+
+.RibbonContext
+{
+    font-size:0px; 
+    margin-left:2px;  
+    height:45px;     
+}
+
+.RibbonContextTitle
+{
+    padding-top:4px;
+    font-size:11px;
+    height:18px;
+    text-align:center;      
+}
+
+.RibbonExtraTextContainer
+{
+    float:right;
+    font-size:11px;    
+    margin-top:25px;
+    padding-top:4px;
+}
+
+.RibbonExtraControlsContainer
+{
+    float:right;
+    font-size:11px;    
+    margin-top:20px;
+    padding-top:4px;
+}
+
+.RibbonHelpButtonContainer
+{
+    float:right;
+    font-size:11px;    
+    margin-top:25px;
+    padding-top:4px;
+    margin-left:10px;
+}
+
+.RibbonItemWithMenu
+{
+    text-align:center;
+}
+
+.RibbonDropDownMenu HR
+{
+    margin-left:20px;
+    margin-top:2px;
+    margin-bottom:2px;
+    border-top:1px dotted #e0e0e0;
+}
+
+.RibbonToggleButtonContainer
+{
+    float:right;
+    font-size:11px;    
+    margin-top:25px;
+    padding-top:4px;
+    margin-left:10px;
+    margin-right:5px;
+}
+
+.RibbonTab
+{
+    font-size:11px;
+    height:18px;   
+    padding-left:6px;
+    padding-right:6px;     
+    padding-top:4px;
+    margin-left:1px;
+    margin-right:1px;
+}
+
+.RibbonGroupCollapsedContainer
+{
+    float:left;
+    display:none;
+    position:relative;
+}
+
+.RibbonGroupCollapsedContainerDropDown
+{
+    top:100%;
+    position:absolute;
+    display:none;
+}
+
+.RibbonGroupContent
+{
+    padding-right:4px;
+    padding-left:4px; 
+}
+
+.RibbonGroupContent>TABLE
+{
+    height:82px;
+    max-height:82px;
+    overflow:hidden;    
+}
+
+.RibbonGroupTitle
+{
+    font-size:11px;
+    height:14px;
+    text-align:center;
+}
+
+.RibbonGroupColumn
+{
+    height:68px;
+    overflow:hidden;
+    padding-right:2px;
+    padding-left:2px;
+}
+
+.RibbonZoneContent
+{
+    float:left;
+}
+
+.BackstagePageContent HR
+{
+    border:0px;
+    border-top:1px dashed #C0C0C0;
+}
+
+.BackstagePageContent H1
+{
+    font-size:16pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+.BackstagePageContent H2
+{
+    font-size:14pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+.BackstagePageContent H3
+{
+    font-size:12pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+.RibbonTooltipContainer
+{
+    margin-top:5px;
+    position:absolute;
+    padding:6px;
+    font-size:11px;
+    z-index:1000;
+}
+
+
+.Disabled
+{
+    filter:gray(enabled=true) alpha(opacity=50);
+    opacity:0.5;
+}
+
+.RibbonItems.Disabled:hover
+{
+    filter:gray(enabled=true) alpha(opacity=50);
+    border:1px solid transparent;
+    background:transparent;
+    cursor:auto;
+}

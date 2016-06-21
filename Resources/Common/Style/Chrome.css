@@ -1,0 +1,42 @@
+﻿HTML, FORM, BODY
+{
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    border:0px;
+}
+
+BODY
+{
+    padding:0px 4px 4px 4px;
+    margin:0px;
+    overflow:hidden;
+    padding:0px;
+}
+
+H1
+{
+    font-size:16pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+H2
+{
+    font-size:14pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+H3
+{
+    font-size:12pt;
+    font-weight:normal;
+    margin-top:0px;
+}
+
+.RibbonTabsContainer
+{
+    border-left:0px solid transparent !important;
+    border-right:0px solid transparent !important;
+}

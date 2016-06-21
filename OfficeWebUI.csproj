@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8192EECB-F2F1-4753-A29F-246F7E2973BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OfficeWebUI</RootNamespace>
+    <AssemblyName>OfficeWebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Debug\OfficeWebUI.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Button\Button.cs" />
+    <Compile Include="Button\Designer.cs" />
+    <Compile Include="Button\Items\MenuItem.cs" />
+    <Compile Include="ColorPicker\ColorPicker.cs" />
+    <Compile Include="Combobox\Combobox.cs" />
+    <Compile Include="Common\Code\Resources.cs" />
+    <Compile Include="Common\Forms\AboutOfficeWebUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Forms\AboutOfficeWebUI.Designer.cs">
+      <DependentUpon>AboutOfficeWebUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Code\Ancestors.cs" />
+    <Compile Include="Common\Code\Enum.cs" />
+    <Compile Include="ListView\Designer.cs" />
+    <Compile Include="ListView\Items\Item.cs" />
+    <Compile Include="ListView\ListView.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="MessageBox\Designer.cs" />
+    <Compile Include="MessageBox\MessageBox.cs" />
+    <Compile Include="Popup\Designer.cs" />
+    <Compile Include="Popup\Popup.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon\Designer.cs" />
+    <Compile Include="Ribbon\Items\SeparatorItem.cs" />
+    <Compile Include="Ribbon\RibbonGroupZone.cs" />
+    <Compile Include="Ribbon\Items\BackstagePage.cs" />
+    <Compile Include="Ribbon\Items\Gallery.cs" />
+    <Compile Include="Ribbon\Items\GalleryItem.cs" />
+    <Compile Include="Ribbon\Items\LargeItemDropDown.cs" />
+    <Compile Include="Ribbon\Items\MediumItemDropDown.cs" />
+    <Compile Include="Ribbon\Items\AppMenuItem.cs" />
+    <Compile Include="Ribbon\Items\SmallItemDropDown.cs" />
+    <Compile Include="Ribbon\Items\LargeItem.cs" />
+    <Compile Include="Ribbon\Items\MediumItem.cs" />
+    <Compile Include="Ribbon\Items\SmallItem.cs" />
+    <Compile Include="Ribbon\Ribbon.cs" />
+    <Compile Include="Ribbon\RibbonContext.cs" />
+    <Compile Include="Ribbon\RibbonGroup.cs" />
+    <Compile Include="Ribbon\RibbonMenu.cs" />
+    <Compile Include="Ribbon\RibbonTab.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Workspace\Items\Area.cs" />
+    <Compile Include="Workspace\Items\Item.cs" />
+    <Compile Include="Workspace\Items\Section.cs" />
+    <Compile Include="Workspace\Workspace.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\Ribbon.css" />
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\Ribbon.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\Ribbon.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_Tabline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_BackgroundContext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_Background_AppMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\OfficeWebUI.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_Background_AppMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_BackgroundContext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_Tabline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\Ribbon.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Image\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Image\arrow_dr2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Image\blank.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Wave\Image\Ribbon_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Wave\Image\Ribbon_Background_AppMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Wave\Image\Ribbon_BackgroundContext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Wave\Image\Ribbon_Tabline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Wave\Style\Ribbon.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Windows7\Image\Ribbon_Background.png" />
+    <EmbeddedResource Include="Resources\Windows7\Image\Ribbon_BackgroundContext.png" />
+    <EmbeddedResource Include="Resources\Windows7\Image\Ribbon_Background_AppMenu.png" />
+    <EmbeddedResource Include="Resources\Windows7\Image\Ribbon_Tabline.png" />
+    <EmbeddedResource Include="Resources\Windows7\Style\Ribbon.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_BackgroundBackstage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_BackgroundBackstagePageHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_BackgroundBackstagePageActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\ToggleRibbon_Down.png" />
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\ToggleRibbon_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\DropDownMenu_Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_GroupExpand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\Forms\AboutOfficeWebUI.resx">
+      <DependentUpon>AboutOfficeWebUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_BackgroundTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\ListView.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\ListView.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\Chrome.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\Chrome.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\JQuery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\Workspace.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\Workspace.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\Workspace.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\Button.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\Button.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Button_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\Button.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\Popup.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\Popup.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\Popup.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Image\Popup_CloseButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\Combobox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\Combobox.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\Combobox.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Combobox_Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Combobox_ArrowHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Workspace_StatusBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\RTL.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Style\ColorPicker.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Silver\Style\ColorPicker.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Button_Background.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Combobox_Arrow.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Combobox_ArrowHover.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\DropDownMenu_Arrow.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_BackgroundBackstage.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_BackgroundBackstagePageActive.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_BackgroundBackstagePageHover.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_BackgroundTooltip.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_GroupExpand.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\ToggleRibbon_Down.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\ToggleRibbon_Up.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Workspace_StatusBar.png" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\Button.css" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\Chrome.css" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\ColorPicker.css" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\Combobox.css" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\ListView.css" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\Popup.css" />
+    <EmbeddedResource Include="Resources\Office2010Blue\Style\Workspace.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\Ribbon_CollapseGroups.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Office2010Blue\Image\Ribbon_GroupCollapsed_Icon.png" />
+    <EmbeddedResource Include="Resources\Office2010Silver\Image\Ribbon_GroupCollapsed_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Javascript\MessageBox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Common\Image\MessageBox_Error.png" />
+    <EmbeddedResource Include="Resources\Common\Image\MessageBox_Info.png" />
+    <EmbeddedResource Include="Resources\Common\Image\MessageBox_Question.png" />
+    <EmbeddedResource Include="Resources\Common\Image\MessageBox_Warn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

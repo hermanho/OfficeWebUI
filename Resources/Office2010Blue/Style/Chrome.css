@@ -1,0 +1,44 @@
+BODY
+{
+    background:#C4D3F1;
+    font-size:11px;
+    font-family:"Segoe UI", Tahoma;
+    color:#3B3B3B;
+}
+
+A
+{
+    color:#5E5E5E;
+    text-decoration:underline;
+}
+
+A:hover
+{
+    color:#E5660B;
+}
+
+BUTTON, INPUT[TYPE=SUBMIT]
+{
+    background:#C4D3F1;
+    border:1px solid #777;
+    font-size:11px;
+    padding:5px;
+}
+
+INPUT[type=text]
+{
+    font-size:11px;
+}
+
+.OfficeWebUI_Chrome_Panel
+{
+    border:1px solid #A5ACB5;
+    background:#fff;
+    padding:4px;
+    margin:4px;
+}
+
+.OfficeWebUI_Chrome_Table TD
+{
+    padding:2px 4px 2px 4px;
+}

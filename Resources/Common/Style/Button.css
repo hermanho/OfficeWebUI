@@ -1,0 +1,54 @@
+﻿.OfficeWebUI_Button
+{
+    display:inline-block;
+    cursor:pointer;
+    *display: inline;
+    *zoom:1;
+}
+
+.OfficeWebUI_Button .OfficeWebUI_ButtonTable
+{
+    margin-left:auto;
+    margin-right:auto;
+    *margin-left:0;
+    *margin-right:0;
+    text-align:left;
+}
+
+
+.OfficeWebUI_Button.Disabled
+{
+    background:#F0F0F0;
+    border:1px solid #c0c0c0;
+    filter:gray(enabled=true) alpha(opacity=50);
+    opacity:0.5;
+}
+
+.OfficeWebUI_Button.Disabled:hover
+{
+    background:#F0F0F0;
+    border:1px solid #c0c0c0;
+    filter:gray(enabled=true) alpha(opacity=50);
+    opacity:0.5;
+    cursor:auto;
+}
+
+
+.ButtonMenuItem
+{
+	padding: 1px;
+	border:0px solid #f1c43f;
+}
+.ButtonMenuItem:hover
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+
+.ButtonMenuItem TABLE
+{
+    *margin:0px;
+    text-align:left;
+}

@@ -1,0 +1,24 @@
+﻿.OfficeWebUI_Workspace
+{
+    width:100%;
+}
+
+.OfficeWebUI_WorkspaceLeftPanel
+{
+    position:relative;
+}
+
+.OfficeWebUI_WorkspaceContentPanel
+{
+    overflow-y:auto;
+}
+
+.OfficeWebUI_WorkspaceNavContainer
+{
+    overflow-y:auto;
+}
+
+.OfficeWebUI_WorkspaceAreaContainer
+{
+
+}

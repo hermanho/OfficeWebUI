@@ -1,0 +1,40 @@
+﻿.OfficeWebUI_PopupShadow
+{
+    filter:alpha(opacity=85);
+    opacity:0.8;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:9000;
+    /*display:none;*/
+}
+
+.OfficeWebUI_PopupHolder
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:9001;
+}
+
+.OfficeWebUI_Popup
+{
+    /*display:none;*/
+    z-index:9002;
+    position:absolute;
+}
+
+.PopupTitleSpan
+{
+    float:left;
+}
+
+.OfficeWebUI_PopupClosePanel
+{
+    float:right;
+    cursor:pointer;
+}

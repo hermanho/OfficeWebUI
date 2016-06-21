@@ -1,0 +1,70 @@
+﻿.OfficeWebUI_ListView_List, .OfficeWebUI_ListView_Gallery
+{
+    background:#ffffff;
+    border:1px solid #C0C0C0;
+}
+
+/**/
+
+.OfficeWebUI_ListView_List .OfficeWebUI_ListViewItem
+{
+    font-size:8pt;
+    padding: 1px;
+	border:0px solid #f1c43f;
+    margin:1px;
+}
+
+.OfficeWebUI_ListView_List .OfficeWebUI_ListViewItem:hover
+{
+   	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3; 
+}
+
+.OfficeWebUI_ListView_List .OfficeWebUI_ListViewItem_ExtraText
+{
+    display:block;
+    color:#777;
+}
+
+.OfficeWebUI_ListView_List .OfficeWebUI_ListViewItemSelected
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+.OfficeWebUI_ListView_List .OfficeWebUI_ListViewItemSelected:hover
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+/**/
+
+.OfficeWebUI_ListView_Gallery .OfficeWebUI_ListViewItem
+{
+    font-size:8pt;
+    padding: 1px;
+	border:0px solid #f1c43f;
+    margin:1px;
+    float:left;
+    width:100px;
+}
+
+.OfficeWebUI_ListView_Gallery .OfficeWebUI_ListViewItem:hover
+{
+   	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3; 
+}
+
+.OfficeWebUI_ListView_Gallery .OfficeWebUI_ListViewItem TD
+{
+    text-align:center;
+}

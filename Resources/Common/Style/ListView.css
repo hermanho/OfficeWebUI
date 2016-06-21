@@ -1,0 +1,4 @@
+﻿.OfficeWebUI_ListView_List, .OfficeWebUI_ListView_Gallery
+{
+    overflow-y:scroll;
+}

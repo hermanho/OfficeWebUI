@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OfficeWebUI</name>
+    </assembly>
+    <members>
+        <member name="F:OfficeWebUI.AboutOfficeWebUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OfficeWebUI.AboutOfficeWebUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OfficeWebUI.AboutOfficeWebUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.Theme">
+            <summary>
+            Supported themes
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.ApplicationMenuType">
+            <summary>
+            Supported types of Ribbon menus
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.ButtonDisplayType">
+            <summary>
+            Supported types of buttons
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.DocumentDirection">
+            <summary>
+            Document Text Direction
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.ListViewDisplayMode">
+            <summary>
+            Display modes for a ListView
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.MessageBoxType">
+            <summary>
+            Message type for MessageBox
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.MessageBoxButtonsType">
+            <summary>
+            Buttons for MessageBox
+            </summary>
+        </member>
+        <member name="T:OfficeWebUI.MessageBoxReturnType">
+            <summary>
+            Return value of MessageBox
+            </summary>
+        </member>
+        <member name="M:OfficeWebUI.Manager.getPageRibbon">
+            <summary>
+            Returns the page's Ribbon if there is any
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OfficeWebUI.Manager.getPageWorkspace">
+            <summary>
+            Returns the page's Workspace if there is any
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OfficeWebUI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:OfficeWebUI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:OfficeWebUI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:OfficeWebUI.Ribbon.OfficeRibbon_Designer.ActionLists">
+            
+        </member>
+    </members>
+</doc>

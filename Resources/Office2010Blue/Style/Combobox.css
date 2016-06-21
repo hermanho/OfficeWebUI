@@ -1,0 +1,45 @@
+.OfficeWebUI_Combobox
+{
+    border:1px solid #7589A7;
+    font-size:11px;
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Blue.Image.Combobox_Arrow.png") %>) center right no-repeat;
+}
+
+.OfficeWebUI_Combobox:hover
+{
+    border:1px solid #f1c43f;
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Blue.Image.Combobox_ArrowHover.png") %>) center right no-repeat;
+}
+
+.OfficeWebUI_ComboboxActive
+{
+    border:1px solid #f1c43f;
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Blue.Image.Combobox_ArrowHover.png") %>) center right no-repeat;
+}
+
+.OfficeWebUI_Combobox_DropDown
+{
+    border:1px solid #7589A7;
+    background:#fff;
+    left:-1px;
+    max-height:200px;
+    overflow-y:auto;
+}
+
+.OfficeWebUI_Combobox_Selected
+{
+    padding:3px;
+}
+
+.OfficeWebUI_Combobox_Item
+{
+    padding:2px;
+    margin:1px;
+    border:1px solid transparent;
+}
+
+.OfficeWebUI_Combobox_Item:hover
+{
+    background:#FDEEB3;
+    border:1px solid #f1c43f;
+}

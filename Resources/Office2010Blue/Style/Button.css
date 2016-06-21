@@ -1,0 +1,50 @@
+.OfficeWebUI_Button
+{
+    padding:2px 6px 2px 6px;
+    border:1px outset #C4D3F1;
+    border-radius:3px;
+    font-size:11px;
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Blue.Image.Button_Background.png") %>) bottom left repeat-x;
+    min-width:50px;
+}
+
+.OfficeWebUI_Button TABLE
+{
+    min-height:16px;
+}
+
+.OfficeWebUI_Button:hover
+{
+	border:1px outset #f1c43f;
+	background:#fdeeb3;
+}
+
+.OfficeWebUI_Button_ExtraText
+{
+    color:#777;
+}
+
+.OfficeWebUI_Button.ButtonMenuActive 
+{
+    border:1px outset #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+.ButtonDropDownMenu
+{
+	position:absolute;
+	border:1px solid #7589A7;
+	margin-left:-7px;
+	box-shadow: 0px 2px 4px #7589A7; 
+	padding:2px;
+	background:#fff;
+	z-index:99;    
+}
+
+.ButtonMenuSeparator
+{
+    border-top:1px solid #D0D0D0;
+    padding-bottom:1px;
+    margin-top:1px;
+}

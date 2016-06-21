@@ -1,0 +1,66 @@
+E:\OfficeWebUITest\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+E:\OfficeWebUITest\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+E:\OfficeWebUITest\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+E:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+E:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+F:\DEV\OfficeWebUITest\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+F:\DEV\OfficeWebUITest\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+F:\DEV\OfficeWebUITest\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+F:\DEV\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+F:\DEV\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+F:\DEV\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+F:\DEV\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+F:\DEV\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+C:\Documents and Settings\bouez\Mes documents\Downloads\OWUI\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+E:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+E:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+E:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+G:\OfficeWebUITest\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+G:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+G:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+G:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+G:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+G:\OfficeWebUITest\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+G:\OfficeWebUITest\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+G:\OfficeWebUITest\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+G:\OfficeWebUI\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+G:\OfficeWebUI\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+G:\OfficeWebUI\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+G:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+G:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+G:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+G:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+G:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+E:\OfficeWebUI\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+E:\OfficeWebUI\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+E:\OfficeWebUI\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+E:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+E:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+E:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+E:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+E:\OfficeWebUI\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\GenerateResource.write.1.tlog
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+D:\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+D:\Dropbox\IPL\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+D:\Dropbox\IPL\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\bin\Debug\OfficeWebUI.dll
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\bin\Debug\OfficeWebUI.pdb
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.AboutOfficeWebUI.resources
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.Properties.Resources.resources
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.csproj.GenerateResource.Cache
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.dll
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.pdb
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\bin\Debug\OfficeWebUI.XML
+C:\Users\herman\Dropbox\IPL\OfficeWebUI\obj\Debug\OfficeWebUI.csprojResolveAssemblyReference.cache

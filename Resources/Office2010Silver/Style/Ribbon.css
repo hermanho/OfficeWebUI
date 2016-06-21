@@ -1,0 +1,420 @@
+
+.RibbonContextsContainer
+{
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_Tabline.png") %>) bottom left repeat-x;
+    *background-position:0px 48px;
+}
+
+.RibbonTabsContainer
+{
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_Background.png") %>) top left repeat-x;
+    border-left:1px solid #C0C0C0;
+    border-right:1px solid #C0C0C0;
+    border-bottom:1px solid #C0C0C0;
+}
+
+.RibbonContext
+{
+    
+    background-image:url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_BackgroundContext.png") %>);
+    background-position:top left;
+    background-repeat:repeat-x;
+    border-bottom:1px solid #C0C0C0;
+}
+
+.RibbonContextTitle
+{
+    color:#444;    
+}
+
+.ApplicationButton
+{
+    background-image:url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_Background_AppMenu.png") %>);
+    background-position:top left;
+    background-repeat:repeat-x;
+    color:#fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.RibbonBackstageContainer
+{
+    box-shadow: 2px 2px 4px #c0c0c0; 
+}
+
+.RibbonTab
+{
+    float:left;
+    background:transparent;
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+    border-top:1px solid transparent;
+    cursor:pointer;
+    color:#888;
+}
+
+.RibbonTab:hover
+{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-left:1px solid #d0d0d0;
+    border-right:1px solid #d0d0d0;
+    border-top:1px solid #d0d0d0;
+    background:#fff;
+}
+
+.RibbonTabActive
+{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-left:1px solid #C0C0C0;
+    border-right:1px solid #C0C0C0;
+    border-top:1px solid #C0C0C0;
+    border-bottom:1px solid #fff;
+    background:#fff;   
+    color:#000; 
+}
+
+.RibbonGroupContent
+{
+    float:left;
+    height:80px;
+    border-right:1px solid #C0C0C0;
+}
+
+.RibbonGroupCollapsedContainer
+{
+    float:left;
+    height:80px;
+    border-right:1px solid #C0C0C0;
+    padding-right:4px;
+    padding-left:4px;
+}
+
+.RibbonGroupCollapsedContainerDropDown
+{
+    background:#fff;
+    border:1px solid #C0C0C0;
+    background:url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_Background.png") %>) top left repeat-x;    
+    height:81px;
+    padding:5px;
+}
+
+.RibbonGroupCollapsedContainerTable
+{
+	border:1px solid transparent;
+	cursor:pointer;
+	background:transparent;
+}
+
+.RibbonGroupCollapsedContainerTable:hover
+{
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+
+.RibbonGroupCollapsedContainerTableActive
+{
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+.RibbonGroupContent A
+{
+    color:#444;
+    text-decoration:none;
+}
+
+.RibbonGroupTitle
+{
+    color:#888;    
+}
+
+.GroupExpandPanel
+{
+    margin-top:3px;
+    *margin-top:-12px;
+    float:right;
+    cursor:pointer;
+}
+
+.RibbonDropDownMenu
+{
+	position:absolute;
+	border:1px solid #C0C0C0;
+	box-shadow: 0px 2px 4px #c0c0c0; 
+	padding:2px;
+	background:#fff;
+	z-index:99;    
+}
+
+.BackstagePagesColumn
+{
+    float:left;
+    width:150px;
+    background:#f0f0f0 url(<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_BackgroundBackstage.png") %>) top right repeat-y;
+    height:100%;
+}
+
+.BackstageContentColumn
+{
+    float:left;
+    padding:10px;
+    font-size:12px;
+}
+
+.BackstagePageTitle
+{
+    margin-top:10px;
+    padding:5px;
+    padding-left:10px;
+    border-top:1px solid transparent;    
+    border-bottom:1px solid transparent;
+    background-image:none;
+}
+
+.BackstagePageTitle:hover
+{
+    background-image:url('<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_BackgroundBackstagePageHover.png") %>');
+    background-position:right top;
+    background-repeat:repeat-y;
+}
+
+.BackstagePageActive
+{
+    background-image:url('<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_BackgroundBackstagePageActive.png") %>');
+    background-position:right center;
+    background-repeat:no-repeat;
+}
+
+.RibbonToggleButtonUp
+{
+    background-image:url('<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.ToggleRibbon_Up.png") %>');
+    background-position:right center;
+    background-repeat:no-repeat;
+    height:16px;
+    width:16px;
+    border:1px solid transparent;
+}
+
+.RibbonToggleButtonDown
+{
+    background-image:url('<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.ToggleRibbon_Down.png") %>');
+    background-position:right center;
+    background-repeat:no-repeat;
+    height:16px;
+    width:16px;
+    border:1px solid transparent;    
+}
+
+/* Items */
+
+.RibbonItemActive
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+
+.RibbonApplicationMenuContainer
+{
+    border:1px solid #c0c0c0;  
+    box-shadow: 0px 2px 4px #c0c0c0;  
+}
+
+.RibbonAppMenuItem
+{
+   	padding: 1px;
+	border:0px solid #f1c43f; 
+	min-width:120px;
+	max-width:240px;
+}
+.RibbonAppMenuItem:hover
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+
+
+.RibbonItems_SmallItem
+{
+	float:left;
+	padding: 1px;
+	border:0px solid #f1c43f;
+}
+.RibbonItems_SmallItem:hover
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+.RibbonItems_SmallItem.Checked
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+.RibbonItems_SmallItem.RibbonMenuActive
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+.RibbonItems_MediumItem
+{
+	padding: 1px;
+	border:0px solid #f1c43f;
+}
+.RibbonItems_MediumItem:hover
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+.RibbonItems_MediumItem.Checked
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+.RibbonItems_MediumItem.RibbonMenuActive
+{
+	padding: 0px;
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+
+.RibbonItems_LargeItem
+{
+	float:left;
+	padding: 1px 3px 1px 3px;
+	border:0px solid #f1c43f;
+}
+.RibbonItems_LargeItem:hover
+{
+	padding: 0px 2px 0px 2px;	
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#fdeeb3;
+}
+.RibbonItems_LargeItem.Checked
+{
+	padding: 0px 2px 0px 2px;	
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+.RibbonItems_LargeItem.RibbonMenuActive
+{
+	padding: 0px 2px 0px 2px;	
+	border:1px solid #f1c43f;
+	cursor:pointer;
+	background:#FFC06F;
+}
+
+
+.RibbonGalleryContainer
+{
+	float:left;
+	height:64px;
+	background:#fff;
+	border:1px solid #C0C0C0;
+	padding-right:2px;
+}
+
+
+.RibbonGalleryDropDownArrow
+{
+  border-right:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	border-top:1px solid #C0C0C0;
+	float:left;
+	height:60px;
+	padding:2px;
+	background:#FFF;
+	cursor:pointer;
+}
+.RibbonGalleryDropDownArrow:hover
+{
+  border-right:1px solid #f1c43f;
+	border-bottom:1px solid #f1c43f;
+	border-top:1px solid #f1c43f;
+	float:left;
+	height:60px;
+	padding:2px;
+	background:#fdeeb3;
+	cursor:pointer;
+}
+
+.RibbonGalleryActive
+{
+    border-right:1px solid #f1c43f;
+	border-bottom:1px solid #f1c43f;
+	border-top:1px solid #f1c43f;
+	float:left;
+	height:60px;
+	padding:2px;
+	background:#FFC06F;
+	cursor:pointer;
+}
+
+.RibbonGalleryItem
+{
+    margin:2px 0px 2px 2px;
+	height:52px;
+	width:70px;
+	padding: 4px 6px 4px 6px;
+	float:left;
+}
+.RibbonGalleryItem:hover
+{
+    margin:2px 0px 2px 2px;
+	padding: 3px 5px 3px 5px;
+	height:52px;
+	width:70px;
+	cursor:pointer;
+	border:1px solid #f1c43f;
+	background:#fdeeb3;
+	float:left;
+}
+
+.GalleryExtraItems
+{
+    border-top:1px solid #C0C0C0;
+    margin-top:1px;
+    margin-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+.RibbonGallerySubMenu
+{
+	position:absolute;
+	border:1px solid #C0C0C0;
+	box-shadow: 0px 2px 4px #c0c0c0; 
+	padding-right:2px;
+	background:#fff;
+	z-index:99;
+}
+
+.RibbonTooltipContainer
+{
+    border:1px solid #777;
+    background-image:url('<%= WebResource("OfficeWebUI.Resources.Office2010Silver.Image.Ribbon_BackgroundTooltip.png") %>');
+    background-position:top left;
+    background-repeat:repeat-x;
+    border-radius: 3px;
+}
